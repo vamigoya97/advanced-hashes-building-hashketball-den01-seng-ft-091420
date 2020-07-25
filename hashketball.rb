@@ -6,7 +6,13 @@ def game_hash
       :team_name => ["Brooklyn Nets"],
       :colors => ["Black", "White"],
       :players => {
-        :player_name => ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"],
+        {
+          :player_name => "Alan Anderson",
+          :number => 0,
+          :shoe => 16,
+          
+          
+        "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"],
         :number => [0, 30, 11, 1, 31],
         :shoe => [16, 14, 17, 19, 15],
         :points => [22, 12, 17, 26, 19],
